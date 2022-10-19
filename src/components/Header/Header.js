@@ -30,6 +30,7 @@ const Header = () => {
             <link to="/register">Sign up</link> 
           </>
         )} */}
+        
         {user?.uid ? (
           <button className="btn-logout" onClick={logOut}>
             Log out
