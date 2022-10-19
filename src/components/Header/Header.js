@@ -21,6 +21,8 @@ const Header = () => {
         </Link>
         {user?.email}
       </div>
+      
+
     </nav>
   );
 };
