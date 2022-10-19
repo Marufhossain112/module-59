@@ -20,9 +20,27 @@ const Header = () => {
           Register
         </Link>
         {user?.email}
+        {/* {user?.uid ? (
+          <button className="btn-logout" onClick={logOut}>
+            Sign out
+          </button>
+        ) : (
+          <>
+            <link to="/login">Sign in</link>
+            <link to="/register">Sign up</link>
+          </>
+        )} */}
+        {user?.uid ? (
+          <button className="btn-logout" onClick={logOut}>
+            Log out
+          </button>
+        ) : (
+          <>
+            <Link to="/login">Login</Link>
+            <Link to="/register">Sign up</Link>
+          </>
+        )}
       </div>
-      
-
     </nav>
   );
 };
