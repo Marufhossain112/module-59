@@ -27,7 +27,7 @@ const Header = () => {
         ) : (
           <>
             <link to="/login">Sign in</link>
-            <link to="/register">Sign up</link>
+            <link to="/register">Sign up</link> 
           </>
         )} */}
         {user?.uid ? (
