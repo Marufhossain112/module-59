@@ -14,10 +14,8 @@ const Header = () => {
         <Link to="/">Shop</Link>
         <Link to="/orders">Orders</Link>
         <Link to="/inventory">Inventory</Link>
-        <Link to="/about">About</Link>
-        <Link to="/login">Login</Link>
-        <Link style={{ marginRight: "22px" }} to="/register">
-          Register
+        <Link style={{ marginRight: "22px" }} to="/about">
+          About
         </Link>
         {user?.email}
         {/* {user?.uid ? (
